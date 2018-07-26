@@ -1,0 +1,42 @@
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+div:first-child {
+  border: 2px solid #4f74a2;
+}
+div > input, div > textarea, div > select {
+  width: 90%;
+  margin: 5px 5px 10px 20px;
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+h2 {
+  color: white;
+  background: rgb(79,116,162);
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+  font-size: 2em;
+}
+
+i {
+  padding: 5px;
+}
+
+
+button {
+  width: 100px;
+  padding: 10px;
+  color: white;
+  background: rgb(79,116,162);
+  margin: 0 auto;
+  border-radius: 8px;
+
+}
